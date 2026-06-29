@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Raíces & Tendencias - Gestión de Ropa Folklórica Tradicional">
+  <title></title>
+  <link rel="stylesheet" href="detalles.css">
+    <style>
+    .enlace-tarjeta {
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contenedor-principal">
+        <h5>Distribución, Venta y Préstamo Folklórico Automatizado</h5>
+    <div class="subtitulo-app">LA CASA FOLKLOR</div>
+
+    <div class="caja-info">
+      <h3>SISTEMA DE ASIGNACIÓN DINÁMICA DE TRAJES</h3>
+      <p>Bienvenido al módulo de control integrado de prendas tradicionales. Aquí procesamos la gestión de inventario para fraternidades, grupos de baile y particulares, controlando las tarifas diarias y la reserva estructurada de datos.</p>
+    </div>
+
+    <h2>GALERIA DE EXIBICION PARA LA CLIENTELA</h2>
+    <p>Explora los detalles visuales, bordados artesanales y texturas de nuestras piezas patrimoniales más solicitadas. Haz clic en las tarjetas interactivas para abrir sus secciones exclusivas de detalles:</p>
+    
+    <div class="galeria-trajes">
+      
+      <a href="caporal.html" class="enlace-tarjeta">
+        <div class="tarjeta-traje">
+          <div class="imagen-placeholder">
+            <img src="a.jpg">
+            <div class="capa-borde"></div>
+          </div>
+          <div class="tarjeta-info">
+            <h3>ALTIPLANO</h3>
+            <p>Bordados de alto relieve en hilos de oro y plata, hombreras rígidas y cascabeles bronceados. Haz clic para ver detalles y variantes.</p>
+            <span class="etiqueta-precio">Bs. 150.00 / Día</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="cueca.html" class="enlace-tarjeta">
+        <div class="tarjeta-traje">
+          <div class="imagen-placeholder">
+            <img src="b.jpg">
+            <div class="capa-borde"></div>
+          </div>
+          <div class="tarjeta-info">
+            <h3>LLANOS</h3>
+            <p>Blusa de encaje fino, pollera plisada estilizada y sombrero blanco de copa alta tradicional con cinta bordada. Haz clic para ver detalles.</p>
+            <span class="etiqueta-precio">Bs. 120.00 / Día</span>
+          </div>
+        </div>
+      </a>
+      <a href="diablada.html" class="enlace-tarjeta">
+        <div class="tarjeta-traje">
+          <div class="imagen-placeholder">
+            <img src="c.jpg">
+            <div class="capa-borde"></div>
+          </div>
+          <div class="tarjeta-info">
+            <h3>ORIENTE</h3>
+            <p>Máscara de dragón con ojos de vidrio soplado, pechera enjoyada, pañuelos bordados y capa extendida con figuras mitológicas. Haz clic para ver detalles.</p>
+            <span class="etiqueta-precio">Bs. 300.00 / Día</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+   
+    <h2>CATALOGO GENERAL DE VESTIMENTAS</h2>
+    <p>Resumen técnico del estado físico actual del inventario:</p>
+    
+    <div class="contenedor-tabla">
+      <table>
+        <thead>
+          <tr>
+            <th>Código ID</th>
+            <th>Prenda / Traje Folklórico</th>
+            <th>Región / Origen</th>
+            <th>Estado</th>
+            <th>Precio Préstamo (Bs/Día)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="id-traje">TR-101</td>
+            <td>Traje Completo de Caporal (Gala Varón)</td>
+            <td>Altiplano / La Paz</td>
+            <td><span class="badge disponible">Disponible</span></td>
+            <td>150.00</td>
+          </tr>
+          <tr>
+            <td class="id-traje">TR-102</td>
+            <td>Vestido de Cueca Cochabambina Estilizado</td>
+            <td>Valles / Cochabamba</td>
+            <td><span class="badge disponible">Disponible</span></td>
+            <td>120.00</td>
+          </tr>
+          <tr>
+            <td class="id-traje">TR-103</td>
+            <td>Traje de Diablada Mayor (Bordado Premium)</td>
+            <td>Patrimonial / Oruro</td>
+            <td><span class="badge reservado">Reservado</span></td>
+            <td>300.00</td>
+          </tr>
+          <tr>
+            <td class="id-traje">TR-104</td>
+            <td>Tipoy Tradicional de Algodón con Encaje</td>
+            <td>Llanos / Santa Cruz</td>
+            <td><span class="badge disponible">Disponible</span></td>
+            <td>80.00</td>
+          </tr>
+          <tr>
+            <td class="id-traje">TR-105</td>
+            <td>Morenada Plana Completa (Chola Antigua)</td>
+            <td>Altiplano / Potosí</td>
+            <td><span class="badge mantenimiento">En Taller</span></td>
+            <td>250.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>RESERVAS,COMENTARIOS Y DETALLES</h2>
+    <p>Utiliza el formulario de la izquierda para seleccionar un traje y el número de días requeridos. El núcleo lógico procesará la cotización con descuentos en tiempo real en la pantalla de la derecha:</p>
+
+    <div class="grid-interactivo">
+      
+      <div class="columna-form">
+        <form id="formReserva">
+          <div class="form-sec">
+            <label for="txtNombre">Nombre Completo del Cliente:</label>
+            <input type="text" id="txtNombre" placeholder="Tu nombre por favor" required>
+          </div>
+
+          <div class="form-sec">
+            <label for="txtEmail">Correo Electrónico:</label>
+            <input type="email" id="txtEmail" placeholder="ejemplo@correo.com" required>
+          </div>
+
+          <div class="form-sec">
+            <label for="selTraje">Seleccionar Traje Folklórico:</label>
+            <select id="selTraje">
+              <option value="150">Caporal Completo — Bs. 150/día</option>
+              <option value="120">Cueca Cochabambina — Bs. 120/día</option>
+              <option value="300" disabled>Diablada Mayor (Reservado)</option>
+              <option value="80">Tipo Tradicional — Bs. 80/día</option>
+              <option value="250" disabled>Morenada Plana (En Mantenimiento)</option>
+            </select>
+          </div>
+
+          <div class="form-sec">
+            <label for="numDias">Días de Alquiler / Préstamo:</label>
+            <input type="number" id="numDias" min="1" max="30" value="1" required>
+          </div>
+
+          <div class="form-sec">
+            <label for="txtMensaje">Notas de Ajuste de Tallas o Detalles:</label>
+            <textarea id="txtMensaje" rows="3" placeholder="Ej: Medidas de hombros, cintura, sombrero..."></textarea>
+          </div>
+
+          <button type="submit" id="btnProcesar">PROCESAR COTIZACION</button>
+        </form>
+      </div>
+
+      <div class="columna-consola">
+        <div class="consola-js">
+          <div class="terminal-header">SU COTIZACION ES</div>
+          <pre class="logs-salida" id="logTerminal">PRESIONE EL BOTON DE COTIZAR EL PRECIO</pre>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="precio.js"></script>
+</body>
+</html>

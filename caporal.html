@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalle Exclusivo — Traje de Caporal</title>
+  <link rel="stylesheet" href="caporal.css">
+</head>
+<body>
+
+  <div class="contenedor-principal">
+    
+    <a href="tienda.html" class="btn-volver">← Volver a la Tienda</a>
+
+    <h1>LA INMENSA VESTIMENTA DEL ALTIPLANO BOLIVIANO</h1>
+    <div class="subtitulo-app">COLECCIONES UNICAS FOLCKLORICAS</div>
+
+    <h2>Variantes y Accesorios Disponibles</h2>
+    <div class="galeria-caporal">
+      
+      <div class="item-caporal">
+        <img src="b1.jpg">
+        <h3>Conjunto Completo (Rojo Fuego)<h3>
+        <p>EEDICIO ESPECIAL PARA LAS DAMAS.</p>
+      </div>
+
+      <div class="item-caporal">
+        <img src="a12.jpg">
+        <h3>CONJIUNTO SURIS SICURIS</h3>
+        <p>BORDADOS CON LENTEJUELAS Y EXTRAORDINARIOS</p>
+      </div>
+
+      <div class="item-caporal">
+        <img src="c3.jpg" >
+        <h3>CONJUNTO TINKUS</h3>
+        <p>EEDICION ESPECIAL PARA LA CLIENTELA </p>
+      </div>
+
+     <div class="item-caporal">
+        <img src="d1.jpg">
+        <h3>CONJUNTO DE POTOLITOS </h3>
+        <p>EDICIION TELLA BALLETA Y DETALLES ACOLORIDOS</p>
+      </div>
+    </div>
+    <div class="seccion-tallas">
+      <h2>AJUSTE SU TALLA</h2>
+      <p>Introduce tu estatura aproximada en centímetros para que nuestro sistema verifique qué variante de corte se adapta mejor a tu contextura física:</p>
+      
+      <div class="grid-tallas">
+        <div class="control-formulario">
+          <label for="numEstatura">Tu Estatura (en cm):</label>
+          <input type="number" id="numEstatura" min="120" max="220" value="170">
+          <button id="btnVerificarTalla">VERIFICAR SU TALLA</button>
+        </div>
+        
+        <div class="resultado-tallas">
+          <div class="terminal-header">CALCULAR</div>
+          <pre id="logTallas">INTRODUFE SUS PEDIDOS A SU GSUTO</pre>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="caporal.js"></script>
+</body>
+</html>
