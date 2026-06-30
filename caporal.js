@@ -22,7 +22,7 @@ document.getElementById('btnVerificarTalla').addEventListener('click', function(
     tallaSugerida = "Talla XL (Corte Especial)";
     detallesCorte = "Fabricación bajo medidas personalizadas en nuestros talleres artesanales.";
   }
-  const resultado = `[ANÁLISIS DE PATRÓN TEXTIL COMPLETADO]
+  const resultado = `ANÁLISIS DE PATRÓN TEXTIL COMPLETADO
 ESTATURA PROCESADA : ${estatura} cm
 DIAGNÓSTICO        : ${tallaSugerida}
 DETALLES TÉCNICOS  : ${detallesCorte}
