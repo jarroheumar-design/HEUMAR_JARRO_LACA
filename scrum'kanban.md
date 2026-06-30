@@ -1,4 +1,4 @@
-# Aplicación Web: Catálogo Dinámico de Sublimación y Serigrafía
+# Aplicación Web: Catálogo Dinámico de La Casa Folklor.
 
 ## 1. Datos Generales
 * **Asignatura:** Desarrollo Web
